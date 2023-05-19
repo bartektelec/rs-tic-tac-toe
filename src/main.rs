@@ -1,3 +1,9 @@
+mod game;
+
+use crate::game::Game;
+
 fn main() {
-    println!("Hello, world!");
+    let mut game = Game::new(None);
+
+    game.start();
 }
